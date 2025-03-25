@@ -1,63 +1,52 @@
 h1, h2 {
     color: whitesmoke;
  }
+ .titoloesotto {
+    padding-left: 600px;
+ }
+
+ h3, h4 {
+    color: brown;
+ }
+
  header {
      background-color: black;
          
  }
- .fb {
+ .fb { /*foto con giacca blue*/
      padding-left: 180px;
      display: flex;
      background-color: white;
      font-size: 30px;
  }
- .corps {
+ .corps { /* competenze*/
      text-align: center;
      font-size: 50px;
      background-color: bisque;
  }
- .parag {
+ .parag { /*competenze*/
      font-size: 20px;
- }
- h3 {
-     color: brown;
  }
  h4 {
      font-size: 35px;
-     color: brown;
  }
- .button {
-     border: none;
-     color: white;
-     padding: 16px 32px;
-     text-align: center;
-     text-decoration: none;
-   
-     font-size: 16px;
-     margin: 4px 2px;
-     transition-duration: 0.4s;
-     cursor: pointer;
- }
- .button1 {
+ /*.button1, .button2, .button3, .button4 {
      background-color: white; 
-     color: black; 
+     color: white; 
      border: 2px solid #04AA6D;
  }
- .button1:hover {
-     background-color: #04AA6D;
-     color: white;
-         
- }
- .button2 {
-     background-color: white; /* Blue */
-     color: black; 
-     border: 2px solid #008CBA;
- }
- .button2:hover {
-     background-color: #008CBA;
-     color: white;
- }
- .fond {
+ .button1:hover, .button2:hover, .button3:hover, .button3:hover, {
+    background-color: #04AA6D;
+    color: white;      
+ }*/
+
+ .bout { /*classe dei buttoni*/ 
+    color: white;
+
+
+}
+
+ .fond { /*capacità*/
      background-color: grey;
  }
  h5 {
@@ -65,15 +54,10 @@ h1, h2 {
      text-align: center;
      color: brown;
  }
- .exp {
+ .exp { /*esperienza*/
      display: flex
  }
- .bout {
-     display: flex;
-     justify-content: right;
-     margin-left: 25%;
-
-     gap: 10px;     }     
+  
 
 header > div {
  display: flex;
